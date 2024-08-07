@@ -88,14 +88,14 @@ jobs:
           echo "EOF" >> $GITHUB_ENV
 
       - name: e2e Test ssh-deploy action - Target 1
-        uses: easingthemes/ssh-deploy@main
+        uses: jinghere11/ssh-deploy@main
         env:
           # Shared ENV Vars created in previous steps
           REMOTE_USER: ${{ env.TEST_USER }}
           TARGET: /var/www/html/${{ env.TEST_USER }}
 
       - name: e2e Test ssh-deploy action - Target 2
-        uses: easingthemes/ssh-deploy@main
+        uses: jinghere11/ssh-deploy@main
         env:
           # Shared ENV Vars created in previous steps
           REMOTE_USER: ${{ env.TEST_USER2 }}

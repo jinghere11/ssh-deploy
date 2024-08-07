@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/easingthemes/ssh-deploy.git"
+    "url": "git+https://github.com/jinghere11/ssh-deploy.git"
   },
   "keywords": [
     "deploy",
@@ -26,9 +26,9 @@
   "author": "Dragan Filipovic",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/easingthemes/ssh-deploy/issues"
+    "url": "https://github.com/jinghere11/ssh-deploy/issues"
   },
-  "homepage": "https://github.com/easingthemes/ssh-deploy#readme",
+  "homepage": "https://github.com/jinghere11/ssh-deploy#readme",
   "dependencies": {
     "rsyncwrapper": "^3.0.1"
   },

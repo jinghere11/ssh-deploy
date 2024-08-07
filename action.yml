@@ -1,6 +1,6 @@
 name: "ssh deploy"
 description: "NodeJS action for FAST deployment with rsync/ssh and remote script execution before/after rsync"
-author: "easingthemes"
+author: "jinghere11"
 inputs:
   SSH_PRIVATE_KEY:
     description: "Private key part of an SSH key pair"

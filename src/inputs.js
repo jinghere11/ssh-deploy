@@ -45,6 +45,7 @@ inputNames.forEach((input) => {
 });
 
 inputs.sshServer = `${inputs.remoteUser}@${inputs.remoteHost}`;
-inputs.rsyncServer = `${inputs.remoteUser}@${inputs.remoteHost}:${inputs.target}`;
+//inputs.rsyncServer = `${inputs.remoteUser}@${inputs.remoteHost}:${inputs.target}`;
+inputs.rsyncServer = `${inputs.target}`;
 
 module.exports = inputs;

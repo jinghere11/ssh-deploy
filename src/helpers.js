@@ -7,7 +7,7 @@ const validateDir = (dir) => {
     return;
   }
   if (existsSync(dir)) {
-    console.log(`✅ [DIR] ${dir} dir exist`);
+    console.log(`✅ [DIR] ${dir} dir exists`);
     return;
   }
 

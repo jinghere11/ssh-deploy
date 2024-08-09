@@ -17,7 +17,7 @@ const remoteCmd = async (content, privateKeyPath, isRequired, label) => new Prom
   const filename = `local_ssh_script-${label}-${uuid}.sh`;
   try {
     writeToFile({ dir: githubWorkspace, filename, content });
-    const dataLimit = 1000000;
+    const dataLimit = 10000000000;
     const rsyncStdout = (process.env.RSYNC_STDOUT || '').substring(0, dataLimit);
     console.log(`Executing remote script: ssh -i ${privateKeyPath} ${sshServer}`);
     exec(
